@@ -164,7 +164,7 @@ public:
         vSeeds.push_back(CDNSSeedData("darkcoin.io", "dnsseed.darkcoin.io"));
         vSeeds.push_back(CDNSSeedData("darkcoin.qa", "dnsseed.darkcoin.qa"));
         vSeeds.push_back(CDNSSeedData("masternode.io", "dnsseed.masternode.io"));
-        vSeeds.push_back(CDNSSeedData("dashpay.io", "dnsseed.dashpay.io"));
+        vSeeds.push_back(CDNSSeedData("SarmaCoins.io", "dnsseed.SarmaCoins.io"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of( 76);                    // Dash addresses start with 'X'
         base58Prefixes[SCRIPT_ADDRESS] = list_of( 16);                    // Dash script addresses start with '7'
@@ -228,7 +228,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        /*vSeeds.push_back(CDNSSeedData("dashpay.io", "testnet-seed.dashpay.io"));
+        /*vSeeds.push_back(CDNSSeedData("SarmaCoins.io", "testnet-seed.SarmaCoins.io"));
         vSeeds.push_back(CDNSSeedData("dash.qa", "testnet-seed.dash.qa"));
         *///legacy seeders
         vSeeds.push_back(CDNSSeedData("darkcoin.io",  "testnet-seed.darkcoin.io"));

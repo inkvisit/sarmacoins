@@ -1,7 +1,7 @@
 Dash Core staging tree 0.12
 ===============================
 
-https://www.dashpay.io
+https://www.SarmaCoins.io
 
 Copyright (c) 2009-2015 Bitcoin Core Developers
 
@@ -18,7 +18,7 @@ are carried out collectively by the network. Dash Core is the name of open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Dash Core software, see https://www.dashpay.io/downloads.
+the Dash Core software, see https://www.SarmaCoins.io/downloads.
 
 
 License
@@ -65,14 +65,14 @@ submit new unit tests for old code. Unit tests can be compiled and run (assuming
 Every pull request is built for both Windows and Linux on a dedicated server,
 and unit and sanity tests are automatically run. The binaries produced may be
 used for manual QA testing — a link to them will appear in a comment on the
-pull request posted by [DashPullTester](https://github.com/dashpay/PullTester). See https://github.com/TheBlueMatt/test-scripts
+pull request posted by [DashPullTester](https://github.com/SarmaCoins/PullTester). See https://github.com/TheBlueMatt/test-scripts
 for the build/test scripts. ***TODO***
 
 ### Manual Quality Assurance (QA) Testing
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-See https://github.com/dashpay/QA/ for how to create a test plan. ***TODO***
+See https://github.com/SarmaCoins/QA/ for how to create a test plan. ***TODO***
 
 Translations
 ------------
