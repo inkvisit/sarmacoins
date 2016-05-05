@@ -1,15 +1,15 @@
 [Unit]
-Description=Dash's distributed currency daemon
+Description=SarmaCoins's distributed currency daemon
 After=network.target
 
 [Service]
-User=dash
-Group=dash
+User=SarmaCoins
+Group=SarmaCoins
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dash/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/SarmaCoinsd/SarmaCoinsd.pid
+ExecStart=/usr/bin/SarmaCoinsd -daemon -pid=/var/lib/SarmaCoinsd/SarmaCoinsd.pid \
+-conf=/etc/SarmaCoins/SarmaCoins.conf -datadir=/var/lib/SarmaCoinsd -disablewallet
 
 Restart=always
 PrivateTmp=true
