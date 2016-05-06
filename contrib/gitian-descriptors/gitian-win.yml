@@ -1,5 +1,5 @@
 ---
-name: "SarmaCoins-win-0.12"
+name: "SarmaCoins-win-1.0.0.1"
 enable_cache: true
 suites:
 - "precise"

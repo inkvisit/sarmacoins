@@ -1,5 +1,5 @@
 ---
-name: "SarmaCoins-osx-0.12"
+name: "SarmaCoins-osx-1.0.0.1"
 enable_cache: true
 suites:
 - "precise"
