@@ -1,9 +1,9 @@
 Sample configuration files for:
 
-SystemD: SarmaCoinsd.service
-Upstart: SarmaCoinsd.conf
-OpenRC:  SarmaCoinsd.openrc
-         SarmaCoinsd.openrcconf
+SystemD: sarmacoinsd.service
+Upstart: sarmacoinsd.conf
+OpenRC:  sarmacoinsd.openrc
+         sarmacoinsd.openrcconf
 
 have been made available to assist packagers in creating node packages here.
 

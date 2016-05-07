@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between SarmaCoins-cli and SarmaCoinsd)
- * of a given instance of the SarmaCoins system.
+ * CBaseChainParams defines the base parameters (shared between sarmacoins-cli and sarmacoinsd)
+ * of a given instance of the sarmacoins system.
  */
 class CBaseChainParams
 {

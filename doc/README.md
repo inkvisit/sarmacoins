@@ -1,4 +1,4 @@
-SarmaCoins Core 0.12.0
+sarmacoins Core 0.12.0
 =====================
 
 Setup
@@ -7,46 +7,46 @@ Setup
 
 Running
 ---------------------
-The following are some helpful notes on how to run SarmaCoins on your native platform.
+The following are some helpful notes on how to run sarmacoins on your native platform.
 
 ### Unix
 
-You need the Qt4 run-time libraries to run SarmaCoins-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run sarmacoins-Qt. On Debian or Ubuntu:
 
 	sudo apt-get install libqtgui4
 
 Unpack the files into a directory and run:
 
-- bin/32/SarmaCoins-qt (GUI, 32-bit) or bin/32/SarmaCoinsd (headless, 32-bit)
-- bin/64/SarmaCoins-qt (GUI, 64-bit) or bin/64/SarmaCoinsd (headless, 64-bit)
+- bin/32/sarmacoins-qt (GUI, 32-bit) or bin/32/sarmacoinsd (headless, 32-bit)
+- bin/64/sarmacoins-qt (GUI, 64-bit) or bin/64/sarmacoinsd (headless, 64-bit)
 
 
 
 ### Windows
 
-Unpack the files into a directory, and then run SarmaCoins-qt.exe.
+Unpack the files into a directory, and then run sarmacoins-qt.exe.
 
 ### OSX
 
-Drag SarmaCoins-Qt to your applications folder, and then run SarmaCoins-Qt.
+Drag sarmacoins-Qt to your applications folder, and then run sarmacoins-Qt.
 
 ### Need Help?
 
-* See the documentation at the [SarmaCoins Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [sarmacoins Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [#SarmaCoins](http://webchat.freenode.net?channels=SarmaCoins) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=SarmaCoins).
-* Ask for help on the [SarmaCoinsTalk](https://SarmaCoinstalk.org/) forums.
+* Ask for help on [#sarmacoins](http://webchat.freenode.net?channels=sarmacoins) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=sarmacoins).
+* Ask for help on the [sarmacoinsTalk](https://sarmacoinstalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build SarmaCoins on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build sarmacoins on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
 
 Development
 ---------------------
-The SarmaCoins repo's [root README](https://github.com/inkvisit/sarmacoins/blob/master/README.md) contains relevant information on the development process and automated testing.
+The sarmacoins repo's [root README](https://github.com/inkvisit/sarmacoins/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Coding Guidelines](coding.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +57,8 @@ The SarmaCoins repo's [root README](https://github.com/inkvisit/sarmacoins/blob/
 - [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [SarmaCoinsTalk](https://SarmaCoinstalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#SarmaCoins](http://webchat.freenode.net/?channels=SarmaCoins) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=SarmaCoins).
+* Discuss on the [sarmacoinsTalk](https://sarmacoinstalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#sarmacoins](http://webchat.freenode.net/?channels=sarmacoins) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=sarmacoins).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

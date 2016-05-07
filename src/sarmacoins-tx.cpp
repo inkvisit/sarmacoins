@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("SarmaCoins Core SarmaCoins-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("sarmacoins Core sarmacoins-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  SarmaCoins-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded SarmaCoins transaction") + "\n" +
-              "  SarmaCoins-tx [options] -create [commands]   " + _("Create hex-encoded SarmaCoins transaction") + "\n" +
+              "  sarmacoins-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded sarmacoins transaction") + "\n" +
+              "  sarmacoins-tx [options] -create [commands]   " + _("Create hex-encoded sarmacoins transaction") + "\n" +
               "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -555,7 +555,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded SarmaCoins transaction
+            // param: hex-encoded sarmacoins transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

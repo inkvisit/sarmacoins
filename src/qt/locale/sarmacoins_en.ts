@@ -78,13 +78,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your SarmaCoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your SarmaCoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <source>These are your sarmacoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>These are your sarmacoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your SarmaCoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>These are your SarmaCoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
+        <source>These are your sarmacoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>These are your sarmacoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>SarmaCoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SarmaCoinss from being stolen by malware infecting your computer.</source>
-        <translation>SarmaCoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SarmaCoinss from being stolen by malware infecting your computer.</translation>
+        <source>sarmacoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sarmacoinss from being stolen by malware infecting your computer.</source>
+        <translation>sarmacoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sarmacoinss from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -296,8 +296,8 @@
     <message>
         <location filename="../bitcoingui.cpp" line="+108"/>
         <location line="+752"/>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <location line="-743"/>
@@ -326,8 +326,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Send coins to a SarmaCoins address</source>
-        <translation>Send coins to a SarmaCoins address</translation>
+        <source>Send coins to a sarmacoins address</source>
+        <translation>Send coins to a sarmacoins address</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -336,8 +336,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and SarmaCoins: URIs)</source>
-        <translation>Request payments (generates QR codes and SarmaCoins: URIs)</translation>
+        <source>Request payments (generates QR codes and sarmacoins: URIs)</source>
+        <translation>Request payments (generates QR codes and sarmacoins: URIs)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -361,13 +361,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About SarmaCoins Core</source>
-        <translation>&amp;About SarmaCoins Core</translation>
+        <source>&amp;About sarmacoins Core</source>
+        <translation>&amp;About sarmacoins Core</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about SarmaCoins Core</source>
-        <translation>Show information about SarmaCoins Core</translation>
+        <source>Show information about sarmacoins Core</source>
+        <translation>Show information about sarmacoins Core</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -387,8 +387,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for SarmaCoins</source>
-        <translation>Modify configuration options for SarmaCoins</translation>
+        <source>Modify configuration options for sarmacoins</source>
+        <translation>Modify configuration options for sarmacoins</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -452,8 +452,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Sign messages with your SarmaCoins addresses to prove you own them</source>
-        <translation>Sign messages with your SarmaCoins addresses to prove you own them</translation>
+        <source>Sign messages with your sarmacoins addresses to prove you own them</source>
+        <translation>Sign messages with your sarmacoins addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -462,8 +462,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Verify messages to ensure they were signed with specified SarmaCoins addresses</source>
-        <translation>Verify messages to ensure they were signed with specified SarmaCoins addresses</translation>
+        <source>Verify messages to ensure they were signed with specified sarmacoins addresses</source>
+        <translation>Verify messages to ensure they were signed with specified sarmacoins addresses</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -562,8 +562,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a SarmaCoins: URI or payment request</source>
-        <translation>Open a SarmaCoins: URI or payment request</translation>
+        <source>Open a sarmacoins: URI or payment request</source>
+        <translation>Open a sarmacoins: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -572,8 +572,8 @@
     </message>
     <message>
         <location line="+196"/>
-        <source>SarmaCoins Core client</source>
-        <translation>SarmaCoins Core client</translation>
+        <source>sarmacoins Core client</source>
+        <translation>sarmacoins Core client</translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
@@ -587,8 +587,8 @@
     </message>
     <message>
         <location line="-407"/>
-        <source>Show the SarmaCoins Core help message to get a list with possible SarmaCoins command-line options</source>
-        <translation>Show the SarmaCoins Core help message to get a list with possible SarmaCoins command-line options</translation>
+        <source>Show the sarmacoins Core help message to get a list with possible sarmacoins command-line options</source>
+        <translation>Show the sarmacoins Core help message to get a list with possible sarmacoins command-line options</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -617,8 +617,8 @@
     </message>
     <message numerus="yes">
         <location line="+256"/>
-        <source>%n active connection(s) to SarmaCoins network</source>
-        <translation><numerusform>%n active connection to SarmaCoins network</numerusform><numerusform>%n active connections to SarmaCoins network</numerusform></translation>
+        <source>%n active connection(s) to sarmacoins network</source>
+        <translation><numerusform>%n active connection to sarmacoins network</numerusform><numerusform>%n active connections to sarmacoins network</numerusform></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1132,18 +1132,18 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SarmaCoins&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SarmaCoins&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening sarmacoins&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening sarmacoins&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SarmaCoins&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SarmaCoins&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening sarmacoins&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening sarmacoins&apos;s configuration screen.</translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SarmaCoins&apos;s configuration screen.</source>
-        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SarmaCoins&apos;s configuration screen.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening sarmacoins&apos;s configuration screen.</source>
+        <translation>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening sarmacoins&apos;s configuration screen.</translation>
     </message>
 </context>
 <context>
@@ -1195,8 +1195,8 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid SarmaCoins address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid SarmaCoins address.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid sarmacoins address.</source>
+        <translation>The entered address &quot;%1&quot; is not a valid sarmacoins address.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1246,8 +1246,8 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+32"/>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1262,8 +1262,8 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About SarmaCoins Core</source>
-        <translation>About SarmaCoins Core</translation>
+        <source>About sarmacoins Core</source>
+        <translation>About sarmacoins Core</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1320,18 +1320,18 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to SarmaCoins Core.</source>
-        <translation>Welcome to SarmaCoins Core.</translation>
+        <source>Welcome to sarmacoins Core.</source>
+        <translation>Welcome to sarmacoins Core.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where SarmaCoins Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where SarmaCoins Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where sarmacoins Core will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where sarmacoins Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>SarmaCoins Core will download and store a copy of the SarmaCoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SarmaCoins Core will download and store a copy of the SarmaCoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>sarmacoins Core will download and store a copy of the sarmacoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>sarmacoins Core will download and store a copy of the sarmacoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1345,8 +1345,8 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1411,13 +1411,13 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically start SarmaCoins after logging in to the system.</source>
-        <translation>Automatically start SarmaCoins after logging in to the system.</translation>
+        <source>Automatically start sarmacoins after logging in to the system.</source>
+        <translation>Automatically start sarmacoins after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start SarmaCoins on system login</source>
-        <translation>&amp;Start SarmaCoins on system login</translation>
+        <source>&amp;Start sarmacoins on system login</source>
+        <translation>&amp;Start sarmacoins on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of SarmaCoins to keep anonymized</source>
-        <translation>Amount of SarmaCoins to keep anonymized</translation>
+        <source>Amount of sarmacoins to keep anonymized</source>
+        <translation>Amount of sarmacoins to keep anonymized</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1476,8 +1476,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the SarmaCoins network through a SOCKS5 proxy.</source>
-        <translation>Connect to the SarmaCoins network through a SOCKS5 proxy.</translation>
+        <source>Connect to the sarmacoins network through a SOCKS5 proxy.</source>
+        <translation>Connect to the sarmacoins network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1516,8 +1516,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the SarmaCoins client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the SarmaCoins client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the sarmacoins client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the sarmacoins client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,15 +1581,15 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting SarmaCoins.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting SarmaCoins.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting sarmacoins.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting sarmacoins.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/SarmaCoins/</source>
+https://www.transifex.com/projects/p/sarmacoins/</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/SarmaCoins/</translation>
+https://www.transifex.com/projects/p/sarmacoins/</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1695,8 +1695,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <location line="+53"/>
         <location line="+1015"/>
         <location line="+77"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SarmaCoins network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the SarmaCoins network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the sarmacoins network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the sarmacoins network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-843"/>
@@ -1990,8 +1990,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="-400"/>
-        <source>Cannot start SarmaCoins: click-to-pay handler</source>
-        <translation>Cannot start SarmaCoins: click-to-pay handler</translation>
+        <source>Cannot start sarmacoins: click-to-pay handler</source>
+        <translation>Cannot start sarmacoins: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+104"/>
@@ -2017,8 +2017,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid SarmaCoins address or malformed URI parameters.</source>
-        <translation>URI cannot be parsed! This can be caused by an invalid SarmaCoins address or malformed URI parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid sarmacoins address or malformed URI parameters.</source>
+        <translation>URI cannot be parsed! This can be caused by an invalid sarmacoins address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2125,8 +2125,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+110"/>
-        <source>Enter a SarmaCoins address (e.g. %1)</source>
-        <translation>Enter a SarmaCoins address (e.g. %1)</translation>
+        <source>Enter a sarmacoins address (e.g. %1)</source>
+        <translation>Enter a sarmacoins address (e.g. %1)</translation>
     </message>
     <message>
         <location line="+760"/>
@@ -2259,8 +2259,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+76"/>
-        <source>Open the SarmaCoins debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the SarmaCoins debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the sarmacoins debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the sarmacoins debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2521,8 +2521,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the SarmaCoins RPC console.</source>
-        <translation>Welcome to the SarmaCoins RPC console.</translation>
+        <source>Welcome to the sarmacoins RPC console.</source>
+        <translation>Welcome to the sarmacoins RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2601,8 +2601,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SarmaCoins network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SarmaCoins network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the sarmacoins network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the sarmacoins network.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,8 +2617,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="-14"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SarmaCoins network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SarmaCoins network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the sarmacoins network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the sarmacoins network.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2925,8 +2925,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SarmaCoins transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SarmaCoins transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for sarmacoins transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for sarmacoins transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3186,8 +3186,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+129"/>
-        <source>Warning: Invalid SarmaCoins address</source>
-        <translation>Warning: Invalid SarmaCoins address</translation>
+        <source>Warning: Invalid sarmacoins address</source>
+        <translation>Warning: Invalid sarmacoins address</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -3214,8 +3214,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The SarmaCoins address to send the payment to</source>
-        <translation>The SarmaCoins address to send the payment to</translation>
+        <source>The sarmacoins address to send the payment to</source>
+        <translation>The sarmacoins address to send the payment to</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3268,8 +3268,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the SarmaCoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SarmaCoins network.</source>
-        <translation>A message that was attached to the SarmaCoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SarmaCoins network.</translation>
+        <source>A message that was attached to the sarmacoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the sarmacoins network.</source>
+        <translation>A message that was attached to the sarmacoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the sarmacoins network.</translation>
     </message>
     <message>
         <location line="+426"/>
@@ -3303,8 +3303,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>SarmaCoins Core is shutting down...</source>
-        <translation>SarmaCoins Core is shutting down...</translation>
+        <source>sarmacoins Core is shutting down...</source>
+        <translation>sarmacoins Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3331,8 +3331,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The SarmaCoins address to sign the message with</source>
-        <translation>The SarmaCoins address to sign the message with</translation>
+        <source>The sarmacoins address to sign the message with</source>
+        <translation>The sarmacoins address to sign the message with</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3373,8 +3373,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this SarmaCoins address</source>
-        <translation>Sign the message to prove you own this SarmaCoins address</translation>
+        <source>Sign the message to prove you own this sarmacoins address</source>
+        <translation>Sign the message to prove you own this sarmacoins address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3404,13 +3404,13 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The SarmaCoins address the message was signed with</source>
-        <translation>The SarmaCoins address the message was signed with</translation>
+        <source>The sarmacoins address the message was signed with</source>
+        <translation>The sarmacoins address the message was signed with</translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified SarmaCoins address</source>
-        <translation>Verify the message to ensure it was signed with the specified SarmaCoins address</translation>
+        <source>Verify the message to ensure it was signed with the specified sarmacoins address</source>
+        <translation>Verify the message to ensure it was signed with the specified sarmacoins address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3498,8 +3498,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,8 +3513,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The SarmaCoins Core developers</source>
-        <translation>The SarmaCoins Core developers</translation>
+        <source>The sarmacoins Core developers</source>
+        <translation>The sarmacoins Core developers</translation>
     </message>
     <message>
         <location filename="../networkstyle.cpp" line="+19"/>
@@ -4242,16 +4242,16 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
 </context>
 <context>
-    <name>SarmaCoins-core</name>
+    <name>sarmacoins-core</name>
     <message>
-        <location filename="../SarmaCoinsstrings.cpp" line="+22"/>
+        <location filename="../sarmacoinsstrings.cpp" line="+22"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. SarmaCoins Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. SarmaCoins Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. sarmacoins Core is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. sarmacoins Core is probably already running.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4320,8 +4320,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+20"/>
-        <source>Unable to bind to %s on this computer. SarmaCoins Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. SarmaCoins Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. sarmacoins Core is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. sarmacoins Core is probably already running.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4610,8 +4610,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all SarmaCoins specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Disable all SarmaCoins specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
+        <source>Disable all sarmacoins specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Disable all sarmacoins specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4730,27 +4730,27 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use SarmaCoinsd, or the -server option to SarmaCoins-qt, you must set an rpcpassword in the configuration file:
+        <source>To use sarmacoinsd, or the -server option to sarmacoins-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SarmaCoinsrpc
+rpcuser=sarmacoinsrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;sarmacoins Alert&quot; admin@foo.com
 </source>
-        <translation>To use SarmaCoinsd, or the -server option to SarmaCoins-qt, you must set an rpcpassword in the configuration file:
+        <translation>To use sarmacoinsd, or the -server option to sarmacoins-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SarmaCoinsrpc
+rpcuser=sarmacoinsrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;sarmacoins Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -4770,8 +4770,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SarmaCoins Core will not work properly.</source>
-        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SarmaCoins Core will not work properly.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong sarmacoins Core will not work properly.</source>
+        <translation>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong sarmacoins Core will not work properly.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4837,8 +4837,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The SarmaCoins Core Developers</source>
-        <translation>Copyright (C) 2014-%i The SarmaCoins Core Developers</translation>
+        <source>Copyright (C) 2014-%i The sarmacoins Core Developers</source>
+        <translation>Copyright (C) 2014-%i The sarmacoins Core Developers</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4877,8 +4877,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@f
     </message>
     <message>
         <location line="+6"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of SarmaCoins Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of SarmaCoins Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of sarmacoins Core</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of sarmacoins Core</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4967,8 +4967,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. SarmaCoins Core is shutting down.</source>
-        <translation>Initialization sanity check failed. SarmaCoins Core is shutting down.</translation>
+        <source>Initialization sanity check failed. sarmacoins Core is shutting down.</source>
+        <translation>Initialization sanity check failed. sarmacoins Core is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5282,8 +5282,8 @@ for example: alertnotify=echo %%s | mail -s &quot;SarmaCoins Alert&quot; admin@f
     </message>
     <message>
         <location line="+9"/>
-        <source>Wallet needed to be rewritten: restart SarmaCoins Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart SarmaCoins Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart sarmacoins Core to complete</source>
+        <translation>Wallet needed to be rewritten: restart sarmacoins Core to complete</translation>
     </message>
     <message>
         <location line="+5"/>

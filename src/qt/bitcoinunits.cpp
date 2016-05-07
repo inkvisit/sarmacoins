@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The SarmaCoins developers
+// Copyright (c) 2014-2015 The sarmacoins developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case DASH: return QString("SarmaCoins");
-        case mDASH: return QString("mSarmaCoins");
-        case uDASH: return QString::fromUtf8("uSarmaCoins");
+        case DASH: return QString("sarmacoins");
+        case mDASH: return QString("msarmacoins");
+        case uDASH: return QString::fromUtf8("usarmacoins");
         case duffs: return QString("duffs");
         default: return QString("???");
     }
@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("SarmaCoins");
-            case mDASH: return QString("Milli-SarmaCoins (1 / 1" THIN_SP_UTF8 "000)");
-            case uDASH: return QString("Micro-SarmaCoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-SarmaCoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case DASH: return QString("sarmacoins");
+            case mDASH: return QString("Milli-sarmacoins (1 / 1" THIN_SP_UTF8 "000)");
+            case uDASH: return QString("Micro-sarmacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-sarmacoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -95,10 +95,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("TestSarmaCoinss");
-            case mDASH: return QString("Milli-TestSarmaCoins (1 / 1" THIN_SP_UTF8 "000)");
-            case uDASH: return QString("Micro-TestSarmaCoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestSarmaCoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case DASH: return QString("Testsarmacoinss");
+            case mDASH: return QString("Milli-Testsarmacoins (1 / 1" THIN_SP_UTF8 "000)");
+            case uDASH: return QString("Micro-Testsarmacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Testsarmacoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

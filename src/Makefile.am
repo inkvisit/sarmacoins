@@ -60,15 +60,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += SarmaCoinsd
+  bin_PROGRAMS += sarmacoinsd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += SarmaCoins-cli SarmaCoins-tx
+  bin_PROGRAMS += sarmacoins-cli sarmacoins-tx
 endif
 
 .PHONY: FORCE
-# SarmaCoins core #
+# sarmacoins core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -170,7 +170,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between SarmaCoinsd and SarmaCoins-qt
+# server: shared between sarmacoinsd and sarmacoins-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -202,7 +202,7 @@ libbitcoin_server_a_SOURCES = \
   $(JSON_H) \
   $(BITCOIN_CORE_H)
 
-# wallet: shared between SarmaCoinsd and SarmaCoins-qt, but only linked
+# wallet: shared between sarmacoinsd and sarmacoins-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_SOURCES = \
@@ -278,7 +278,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between SarmaCoinsd, and SarmaCoins-qt and non-server tools
+# common: shared between sarmacoinsd, and sarmacoins-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -333,7 +333,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between SarmaCoins-cli and SarmaCoins-qt
+# cli: shared between sarmacoins-cli and sarmacoins-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -343,7 +343,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-SarmaCoinsd_LDADD = \
+sarmacoinsd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -354,35 +354,35 @@ SarmaCoinsd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-SarmaCoinsd_LDADD += libbitcoin_wallet.a
+sarmacoinsd_LDADD += libbitcoin_wallet.a
 endif
-SarmaCoinsd_SOURCES = SarmaCoinsd.cpp
+sarmacoinsd_SOURCES = sarmacoinsd.cpp
 #
 
 if TARGET_WINDOWS
-SarmaCoinsd_SOURCES += SarmaCoinsd-res.rc
+sarmacoinsd_SOURCES += sarmacoinsd-res.rc
 endif
 
-SarmaCoinsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-SarmaCoinsd_CPPFLAGS = $(BITCOIN_INCLUDES)
-SarmaCoinsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+sarmacoinsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+sarmacoinsd_CPPFLAGS = $(BITCOIN_INCLUDES)
+sarmacoinsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-# SarmaCoins-cli binary #
-SarmaCoins_cli_LDADD = \
+# sarmacoins-cli binary #
+sarmacoins_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-SarmaCoins_cli_SOURCES = \
-  SarmaCoins-cli.cpp
+sarmacoins_cli_SOURCES = \
+  sarmacoins-cli.cpp
 
-SarmaCoins_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+sarmacoins_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# SarmaCoins-tx binary #
-SarmaCoins_tx_LDADD = \
+# sarmacoins-tx binary #
+sarmacoins_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -391,15 +391,15 @@ SarmaCoins_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-SarmaCoins_tx_SOURCES = SarmaCoins-tx.cpp
-SarmaCoins_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+sarmacoins_tx_SOURCES = sarmacoins-tx.cpp
+sarmacoins_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-SarmaCoins_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+sarmacoins_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-SarmaCoins_cli_SOURCES += SarmaCoins-cli-res.rc
+sarmacoins_cli_SOURCES += sarmacoins-cli-res.rc
 endif
-SarmaCoins_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+sarmacoins_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

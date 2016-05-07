@@ -93,7 +93,7 @@ public:
 };
 
 /**
- * SarmaCoins RPC command dispatcher.
+ * sarmacoins RPC command dispatcher.
  */
 class CRPCTable
 {

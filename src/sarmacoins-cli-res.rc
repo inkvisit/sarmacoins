@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "SarmaCoins"
-            VALUE "FileDescription",    "SarmaCoins-cli (OSS RPC client for SarmaCoins)"
+            VALUE "CompanyName",        "sarmacoins"
+            VALUE "FileDescription",    "sarmacoins-cli (OSS RPC client for sarmacoins)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "SarmaCoins-cli"
+            VALUE "InternalName",       "sarmacoins-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "SarmaCoins-cli.exe"
-            VALUE "ProductName",        "SarmaCoins-cli"
+            VALUE "OriginalFilename",   "sarmacoins-cli.exe"
+            VALUE "ProductName",        "sarmacoins-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

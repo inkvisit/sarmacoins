@@ -6,7 +6,7 @@
 #define BITCOIN_CRYPTO_COMMON_H
 
 #if defined(HAVE_CONFIG_H)
-#include "SarmaCoins-config.h"
+#include "sarmacoins-config.h"
 #endif
 
 #include <stdint.h>

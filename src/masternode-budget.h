@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2015 The SarmaCoins developers
+// Copyright (c) 2014-2015 The sarmacoins developers
 
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -261,7 +261,7 @@ public:
 
     //check to see if we should vote on this
     void AutoCheck();
-    //total SarmaCoins paid out by this budget
+    //total sarmacoins paid out by this budget
     CAmount GetTotalPayout();
     //vote on this finalized budget as a masternode
     void SubmitVote();

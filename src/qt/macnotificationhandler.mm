@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.SarmaCoins.SarmaCoins-Qt";
+        return @"io.sarmacoins.sarmacoins-Qt";
     } else {
         return [self __bundleIdentifier];
     }

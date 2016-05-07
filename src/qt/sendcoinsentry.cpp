@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The SarmaCoins developers
+// Copyright (c) 2014-2015 The sarmacoins developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,9 +31,9 @@ SendCoinsEntry::SendCoinsEntry(QWidget *parent) :
     ui->addAsLabel->setPlaceholderText(tr("Enter a label for this address to add it to your address book"));
 #endif
 
-    // normal SarmaCoins address field
+    // normal sarmacoins address field
     GUIUtil::setupAddressWidget(ui->payTo, this);
-    // just a label for displaying SarmaCoins address(es)
+    // just a label for displaying sarmacoins address(es)
     ui->payTo_is->setFont(GUIUtil::bitcoinAddressFont());
 
     // Connect signals

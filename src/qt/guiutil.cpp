@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The SarmaCoins developers
+// Copyright (c) 2014-2015 The sarmacoins developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -107,7 +107,7 @@ void setupAddressWidget(QValidatedLineEdit *widget, QWidget *parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a SarmaCoins address (e.g. %1)").arg("XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg"));
+    widget->setPlaceholderText(QObject::tr("Enter a sarmacoins address (e.g. %1)").arg("XwnLY9Tf7Zsef8gMGL2fhWA9ZmMjt4KPwg"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -124,8 +124,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no SarmaCoins: URI
-    if(!uri.isValid() || uri.scheme() != QString("SarmaCoins"))
+    // return if URI is not valid or is no sarmacoins: URI
+    if(!uri.isValid() || uri.scheme() != QString("sarmacoins"))
         return false;
 
     SendCoinsRecipient rv;
@@ -185,13 +185,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert SarmaCoins:// to SarmaCoins:
+    // Convert sarmacoins:// to sarmacoins:
     //
-    //    Cannot handle this later, because SarmaCoins:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because sarmacoins:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("SarmaCoins://", Qt::CaseInsensitive))
+    if(uri.startsWith("sarmacoins://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 7, "SarmaCoins:");
+        uri.replace(0, 7, "sarmacoins:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -199,7 +199,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("SarmaCoins:%1").arg(info.address);
+    QString ret = QString("sarmacoins:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -392,7 +392,7 @@ void openConfigfile()
 {
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open SarmaCoins.conf with the associated application */
+    /* Open sarmacoins.conf with the associated application */
     if (boost::filesystem::exists(pathConfig))
         QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }
@@ -590,12 +590,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "SarmaCoins.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "sarmacoins.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for SarmaCoins.lnk
+    // check for sarmacoins.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -672,7 +672,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "SarmaCoins.desktop";
+    return GetAutostartDir() / "sarmacoins.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -710,10 +710,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a SarmaCoins.desktop file to the autostart directory:
+        // Write a sarmacoins.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=SarmaCoins\n";
+        optionFile << "Name=sarmacoins\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -732,7 +732,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the SarmaCoins app
+    // loop through the list of startup items and try to find the sarmacoins app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -766,7 +766,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add SarmaCoins app to startup item list
+        // add sarmacoins app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {

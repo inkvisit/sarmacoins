@@ -1,25 +1,25 @@
-# /etc/conf.d/SarmaCoinsd: config file for /etc/init.d/SarmaCoinsd
+# /etc/conf.d/sarmacoinsd: config file for /etc/init.d/sarmacoinsd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/SarmaCoins/SarmaCoins.conf"
+#BITCOIND_CONFIGFILE="/etc/sarmacoins/sarmacoins.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/SarmaCoinsd"
+#BITCOIND_PIDDIR="/var/run/sarmacoinsd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/SarmaCoinsd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/sarmacoinsd.pid"
 
-# Where to write SarmaCoinsd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/SarmaCoinsd"
+# Where to write sarmacoinsd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/sarmacoinsd"
 
-# User and group to own SarmaCoinsd process
-#BITCOIND_USER="SarmaCoins"
-#BITCOIND_GROUP="SarmaCoins"
+# User and group to own sarmacoinsd process
+#BITCOIND_USER="sarmacoins"
+#BITCOIND_GROUP="sarmacoins"
 
-# Path to SarmaCoinsd executable
-#BITCOIND_BIN="/usr/bin/SarmaCoinsd"
+# Path to sarmacoinsd executable
+#BITCOIND_BIN="/usr/bin/sarmacoinsd"
 
-# Nice value to run SarmaCoinsd under
+# Nice value to run sarmacoinsd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

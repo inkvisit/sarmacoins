@@ -1,6 +1,6 @@
 [Protocol]
-exec=SarmaCoins-qt '%u'
-protocol=SarmaCoins
+exec=sarmacoins-qt '%u'
+protocol=sarmacoins
 input=none
 output=none
 helper=true

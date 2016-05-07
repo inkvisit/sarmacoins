@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your SarmaCoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše SarmaCoins adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your sarmacoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše sarmacoins adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your SarmaCoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše SarmaCoins adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your sarmacoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše sarmacoins adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>SarmaCoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SarmaCoinss from being stolen by malware infecting your computer.</source>
-        <translation>SarmaCoinsCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
+        <source>sarmacoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sarmacoinss from being stolen by malware infecting your computer.</source>
+        <translation>sarmacoinsCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,16 +255,16 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a SarmaCoins address</source>
-        <translation>Poslať mince na SarmaCoins adresu</translation>
+        <source>Send coins to a sarmacoins address</source>
+        <translation>Poslať mince na sarmacoins adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and SarmaCoins: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a SarmaCoins: URI)</translation>
+        <source>Request payments (generates QR codes and sarmacoins: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a sarmacoins: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -283,12 +283,12 @@
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About SarmaCoins Core</source>
-        <translation>&amp;O SarmaCoins Core</translation>
+        <source>&amp;About sarmacoins Core</source>
+        <translation>&amp;O sarmacoins Core</translation>
     </message>
     <message>
-        <source>Show information about SarmaCoins Core</source>
-        <translation>Zobraziť informácie o SarmaCoins Core</translation>
+        <source>Show information about sarmacoins Core</source>
+        <translation>Zobraziť informácie o sarmacoins Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for SarmaCoins</source>
-        <translation>Upraviť možnosti konfigurácie pre SarmaCoins</translation>
+        <source>Modify configuration options for sarmacoins</source>
+        <translation>Upraviť možnosti konfigurácie pre sarmacoins</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your SarmaCoins addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi SarmaCoins adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your sarmacoins addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi sarmacoins adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SarmaCoins addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými SarmaCoins adresami</translation>
+        <source>Verify messages to ensure they were signed with specified sarmacoins addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými sarmacoins adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -443,16 +443,16 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a SarmaCoins: URI or payment request</source>
-        <translation>Otvoriť SarmaCoins: URI alebo žiadosť o platbu </translation>
+        <source>Open a sarmacoins: URI or payment request</source>
+        <translation>Otvoriť sarmacoins: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>SarmaCoins Core client</source>
-        <translation>SarmaCoins Core klient</translation>
+        <source>sarmacoins Core client</source>
+        <translation>sarmacoins Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the SarmaCoins Core help message to get a list with possible SarmaCoins command-line options</source>
-        <translation>Zobraziť SarmaCoins Core nápovedu k získaniu zoznamu možností príkazového riadku SarmaCoins.</translation>
+        <source>Show the sarmacoins Core help message to get a list with possible sarmacoins command-line options</source>
+        <translation>Zobraziť sarmacoins Core nápovedu k získaniu zoznamu možností príkazového riadku sarmacoins.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to SarmaCoins network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou SarmaCoins</numerusform><numerusform>%n aktívne spojenia so sieťou SarmaCoins</numerusform><numerusform>%n aktívnych spojení so sieťou SarmaCoins</numerusform></translation>
+        <source>%n active connection(s) to sarmacoins network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou sarmacoins</numerusform><numerusform>%n aktívne spojenia so sieťou sarmacoins</numerusform><numerusform>%n aktívnych spojení so sieťou sarmacoins</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -895,16 +895,16 @@ Adresa: %4</translation>
         <translation>Konfigurácia Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SarmaCoins's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky SarmaCoins.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening sarmacoins's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky sarmacoins.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SarmaCoins's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky SarmaCoins.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening sarmacoins's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky sarmacoins.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SarmaCoins's configuration screen.</source>
-        <translation>Darksend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky SarmaCoins.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening sarmacoins's configuration screen.</source>
+        <translation>Darksend bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky sarmacoins.</translation>
     </message>
 </context>
 <context>
@@ -946,8 +946,8 @@ Adresa: %4</translation>
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SarmaCoins address.</source>
-        <translation>Zadaná adresa "%1" nie je platná SarmaCoins adresa.</translation>
+        <source>The entered address "%1" is not a valid sarmacoins address.</source>
+        <translation>Zadaná adresa "%1" nie je platná sarmacoins adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -988,8 +988,8 @@ Adresa: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1000,8 +1000,8 @@ Adresa: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About SarmaCoins Core</source>
-        <translation>O SarmaCoins Core</translation>
+        <source>About sarmacoins Core</source>
+        <translation>O sarmacoins Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1047,16 +1047,16 @@ Adresa: %4</translation>
         <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to SarmaCoins Core.</source>
-        <translation>Vitajte v SarmaCoins Core.</translation>
+        <source>Welcome to sarmacoins Core.</source>
+        <translation>Vitajte v sarmacoins Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SarmaCoins Core will store its data.</source>
-        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude SarmaCoins Core ukladať svoje dáta.</translation>
+        <source>As this is the first time the program is launched, you can choose where sarmacoins Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude sarmacoins Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>SarmaCoins Core will download and store a copy of the SarmaCoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SarmaCoins Core stiahne a uloží kópiu reťazca blokov SarmaCoins. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>sarmacoins Core will download and store a copy of the sarmacoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>sarmacoins Core stiahne a uloží kópiu reťazca blokov sarmacoins. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1067,8 +1067,8 @@ Adresa: %4</translation>
         <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1121,12 +1121,12 @@ Adresa: %4</translation>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start SarmaCoins after logging in to the system.</source>
-        <translation>Automaticky spustiť SarmaCoins po prihlásení do systému.</translation>
+        <source>Automatically start sarmacoins after logging in to the system.</source>
+        <translation>Automaticky spustiť sarmacoins po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start SarmaCoins on system login</source>
-        <translation>&amp;Spusť SarmaCoins po prihlásení do systému</translation>
+        <source>&amp;Start sarmacoins on system login</source>
+        <translation>&amp;Spusť sarmacoins po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1153,8 +1153,8 @@ Adresa: %4</translation>
         <translation>Táto suma slúži ako hranica pre vypnutie Darksend akonáhle je dosiahnutá</translation>
     </message>
     <message>
-        <source>Amount of SarmaCoins to keep anonymized</source>
-        <translation>Suma SarmaCoins ktorú držať anonymne </translation>
+        <source>Amount of sarmacoins to keep anonymized</source>
+        <translation>Suma sarmacoins ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1173,8 +1173,8 @@ Adresa: %4</translation>
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the SarmaCoins network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete SarmaCoins cez proxy SOCKS5.</translation>
+        <source>Connect to the sarmacoins network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete sarmacoins cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1205,8 +1205,8 @@ Adresa: %4</translation>
         <translation>Sieť</translation>
     </message>
     <message>
-        <source>Automatically open the SarmaCoins client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť na smerovači port pre SarmaCoins klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
+        <source>Automatically open the sarmacoins client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre sarmacoins klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,14 +1257,14 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SarmaCoins.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní SarmaCoins.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting sarmacoins.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní sarmacoins.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/SarmaCoins/</source>
+https://www.transifex.com/projects/p/sarmacoins/</source>
         <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
-https://www.transifex.com/projects/p/SarmaCoins/</translation>
+https://www.transifex.com/projects/p/sarmacoins/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1346,8 +1346,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SarmaCoins network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou SarmaCoins akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the sarmacoins network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou sarmacoins akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1567,8 +1567,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
-        <source>Cannot start SarmaCoins: click-to-pay handler</source>
-        <translation>SarmaCoins sa nedá spustiť: click-to-pay handler</translation>
+        <source>Cannot start sarmacoins: click-to-pay handler</source>
+        <translation>sarmacoins sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1587,8 +1587,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SarmaCoins address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou SarmaCoins adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid sarmacoins address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou sarmacoins adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a SarmaCoins address (e.g. %1)</source>
-        <translation>Zadajte SarmaCoins adresu (e.g. %1)</translation>
+        <source>Enter a sarmacoins address (e.g. %1)</source>
+        <translation>Zadajte sarmacoins adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1763,8 +1763,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Počet pripojení</translation>
     </message>
     <message>
-        <source>Open the SarmaCoins debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť denník ladenia SarmaCoins zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
+        <source>Open the sarmacoins debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia sarmacoins zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1971,8 +1971,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Von:</translation>
     </message>
     <message>
-        <source>Welcome to the SarmaCoins RPC console.</source>
-        <translation>Vitajte v konzole SarmaCoins RPC</translation>
+        <source>Welcome to the sarmacoins RPC console.</source>
+        <translation>Vitajte v konzole sarmacoins RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2034,8 +2034,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SarmaCoins network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť SarmaCoins.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the sarmacoins network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť sarmacoins.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2046,8 +2046,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SarmaCoins network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť SarmaCoins.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the sarmacoins network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť sarmacoins.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2291,8 +2291,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SarmaCoins transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po SarmaCoins transakciách väčší ako dokáže sieť SarmaCoins spracovať.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for sarmacoins transactions than the network can process.</source>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po sarmacoins transakciách väčší ako dokáže sieť sarmacoins spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2495,8 +2495,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid SarmaCoins address</source>
-        <translation>Upozornenie: Neplatná SarmaCoins adresa</translation>
+        <source>Warning: Invalid sarmacoins address</source>
+        <translation>Upozornenie: Neplatná sarmacoins adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2518,8 +2518,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The SarmaCoins address to send the payment to</source>
-        <translation>SarmaCoins adresa pre poslanie platby</translation>
+        <source>The sarmacoins address to send the payment to</source>
+        <translation>sarmacoins adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2558,8 +2558,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the SarmaCoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SarmaCoins network.</source>
-        <translation>Správa ktorá bola pripojená ku SarmaCoins: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť SarmaCoins.</translation>
+        <source>A message that was attached to the sarmacoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the sarmacoins network.</source>
+        <translation>Správa ktorá bola pripojená ku sarmacoins: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť sarmacoins.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2585,8 +2585,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SarmaCoins Core is shutting down...</source>
-        <translation>SarmaCoins core sa vypína...</translation>
+        <source>sarmacoins Core is shutting down...</source>
+        <translation>sarmacoins core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The SarmaCoins address to sign the message with</source>
-        <translation>SarmaCoins adresa na podpísanie správy</translation>
+        <source>The sarmacoins address to sign the message with</source>
+        <translation>sarmacoins adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2640,8 +2640,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SarmaCoins address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto SarmaCoins adresu</translation>
+        <source>Sign the message to prove you own this sarmacoins address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto sarmacoins adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2664,12 +2664,12 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The SarmaCoins address the message was signed with</source>
-        <translation>Adresa SarmaCoins s ktorou bola podpísaná správa</translation>
+        <source>The sarmacoins address the message was signed with</source>
+        <translation>Adresa sarmacoins s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SarmaCoins address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou SarmaCoins adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified sarmacoins address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou sarmacoins adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2735,8 +2735,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core</translation>
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2747,8 +2747,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The SarmaCoins Core developers</source>
-        <translation>Vývojári SarmaCoins Core</translation>
+        <source>The sarmacoins Core developers</source>
+        <translation>Vývojári sarmacoins Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3319,14 +3319,14 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
 </context>
 <context>
-    <name>SarmaCoins-core</name>
+    <name>sarmacoins-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. SarmaCoins Core is probably already running.</source>
-        <translation>Nedá sa zamknúť dátový adresár %s. SarmaCoins Core už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s. sarmacoins Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. sarmacoins Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3381,8 +3381,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. SarmaCoins Core is probably already running.</source>
-        <translation>Nedá sa viazať ku %s na tomto počítači. SarmaCoins Core už pravdepodobne beží.</translation>
+        <source>Unable to bind to %s on this computer. sarmacoins Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. sarmacoins Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3613,8 +3613,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <source>Disable all SarmaCoins specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre SarmaCoins (Masternode, Darksend, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
+        <source>Disable all sarmacoins specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre sarmacoins (Masternode, Darksend, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3709,27 +3709,27 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use SarmaCoinsd, or the -server option to SarmaCoins-qt, you must set an rpcpassword in the configuration file:
+        <source>To use sarmacoinsd, or the -server option to sarmacoins-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=SarmaCoinsrpc
+rpcuser=sarmacoinsrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "SarmaCoins Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "sarmacoins Alert" admin@foo.com
 </source>
-        <translation>Pre použitie možnosti -server pre SarmaCoins-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
+        <translation>Pre použitie možnosti -server pre sarmacoins-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodné heslo:
-rpcuser=SarmaCoinsrpc
+rpcuser=sarmacoinsrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Používateľské meno a heslo NEMÔŽU byť rovnaké.
 Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
 Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
-napríklad: alertnotify=echo %%s | mail -s "SarmaCoins Upozornenie" admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s "sarmacoins Upozornenie" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3745,8 +3745,8 @@ napríklad: alertnotify=echo %%s | mail -s "SarmaCoins Upozornenie" admin@foo.co
         <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SarmaCoins Core will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, SarmaCoins Core nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong sarmacoins Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, sarmacoins Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ napríklad: alertnotify=echo %%s | mail -s "SarmaCoins Upozornenie" admin@foo.co
         <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The SarmaCoins Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra SarmaCoins</translation>
+        <source>Copyright (C) 2014-%i The sarmacoins Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra sarmacoins</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ napríklad: alertnotify=echo %%s | mail -s "SarmaCoins Upozornenie" admin@foo.co
         <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of SarmaCoins Core</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu SarmaCoins Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of sarmacoins Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu sarmacoins Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ napríklad: alertnotify=echo %%s | mail -s "SarmaCoins Upozornenie" admin@foo.co
         <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. SarmaCoins Core is shutting down.</source>
-        <translation>Inicializácia kontroly zdravia zlyhala. SarmaCoins Core sa vypína.</translation>
+        <source>Initialization sanity check failed. sarmacoins Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. sarmacoins Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ napríklad: alertnotify=echo %%s | mail -s "SarmaCoins Upozornenie" admin@foo.co
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart SarmaCoins Core to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte SarmaCoins Core</translation>
+        <source>Wallet needed to be rewritten: restart sarmacoins Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte sarmacoins Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

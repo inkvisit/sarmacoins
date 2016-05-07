@@ -58,12 +58,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your SarmaCoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>De här är dina SarmaCoins-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
+        <source>These are your sarmacoins addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>De här är dina sarmacoins-adresser för att skicka betalningar. Kontrollera alltid mängden och mottagaradressen innan du skickar mynt.</translation>
     </message>
     <message>
-        <source>These are your SarmaCoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>De här är dina SarmaCoins-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your sarmacoins addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>De här är dina sarmacoins-adresser för betalningsmottagningar. Det rekommenderas att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>SarmaCoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SarmaCoinss from being stolen by malware infecting your computer.</source>
-        <translation>SarmaCoins kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina SarmaCoins stjäls av skadeprogram som har infekterat din dator.</translation>
+        <source>sarmacoins will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your sarmacoinss from being stolen by malware infecting your computer.</source>
+        <translation>sarmacoins kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina sarmacoins stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core
 </translation>
     </message>
     <message>
@@ -244,16 +244,16 @@
         <translation>&amp;Skicka</translation>
     </message>
     <message>
-        <source>Send coins to a SarmaCoins address</source>
-        <translation>Skicka mynt till en SarmaCoins-adress</translation>
+        <source>Send coins to a sarmacoins address</source>
+        <translation>Skicka mynt till en sarmacoins-adress</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and SarmaCoins: URIs)</source>
-        <translation>Begär betalningar (genererar QR-koder och SarmaCoins:-URI:s)</translation>
+        <source>Request payments (generates QR codes and sarmacoins: URIs)</source>
+        <translation>Begär betalningar (genererar QR-koder och sarmacoins:-URI:s)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About SarmaCoins Core</source>
-        <translation>&amp;Om SarmaCoins Core</translation>
+        <source>&amp;About sarmacoins Core</source>
+        <translation>&amp;Om sarmacoins Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -288,8 +288,8 @@
         <translation>&amp;Alternativ...</translation>
     </message>
     <message>
-        <source>Modify configuration options for SarmaCoins</source>
-        <translation>Anpassa konfigurationsalternatv för SarmaCoins</translation>
+        <source>Modify configuration options for sarmacoins</source>
+        <translation>Anpassa konfigurationsalternatv för sarmacoins</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -340,16 +340,16 @@
         <translation>Signera &amp;meddelande...</translation>
     </message>
     <message>
-        <source>Sign messages with your SarmaCoins addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina SarmaCoins-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your sarmacoins addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina sarmacoins-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Bekräfta meddelande...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified SarmaCoins addresses</source>
-        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna SarmaCoins-adresserna</translation>
+        <source>Verify messages to ensure they were signed with specified sarmacoins addresses</source>
+        <translation>Bekräfta meddelanden för att garantera att de signerades med de angivna sarmacoins-adresserna</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -404,16 +404,16 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a SarmaCoins: URI or payment request</source>
-        <translation>Öppna en SarmaCoins-URI eller betalningsbegäran</translation>
+        <source>Open a sarmacoins: URI or payment request</source>
+        <translation>Öppna en sarmacoins-URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the SarmaCoins Core help message to get a list with possible SarmaCoins command-line options</source>
-        <translation>Visa SarmaCoins Core-hjälpmeddelandet för att få en lista med möjliga SarmaCoins-kommandoradalternativ</translation>
+        <source>Show the sarmacoins Core help message to get a list with possible sarmacoins command-line options</source>
+        <translation>Visa sarmacoins Core-hjälpmeddelandet för att få en lista med möjliga sarmacoins-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -790,16 +790,16 @@ Adress: %4
         <translation>Darksend-konfiguration</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SarmaCoins's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna SarmaCoins:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening sarmacoins's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt om till grundläggande (%1 och 2 omgångar). Du kan ändra detta när som helst genom att öppna sarmacoins:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SarmaCoins's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna SarmaCoins:s konfigurationsskärm.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening sarmacoins's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på hög (%1 och 8 omgångar). Du kan ändra detta när som helst genom att öppna sarmacoins:s konfigurationsskärm.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SarmaCoins's configuration screen.</source>
-        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna SarmaCoins:s konfigurationsskärm</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening sarmacoins's configuration screen.</source>
+        <translation>Darksend ställdes framgångsrikt in på maximal (%1 och 16 omgångar). Du kan ändra detta när som helst genom att öppna sarmacoins:s konfigurationsskärm</translation>
     </message>
 </context>
 <context>
@@ -841,8 +841,8 @@ Adress: %4
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SarmaCoins address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig SarmaCoins-adress.</translation>
+        <source>The entered address "%1" is not a valid sarmacoins address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig sarmacoins-adress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to SarmaCoins Core.</source>
-        <translation>Välkommen till SarmaCoins Core.</translation>
+        <source>Welcome to sarmacoins Core.</source>
+        <translation>Välkommen till sarmacoins Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where SarmaCoins Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var SarmaCoins Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where sarmacoins Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var sarmacoins Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>SarmaCoins Core will download and store a copy of the SarmaCoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>SarmaCoins Core kommer att laddas ned och lagra en kopia av SarmaCoins:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>sarmacoins Core will download and store a copy of the sarmacoins block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>sarmacoins Core kommer att laddas ned och lagra en kopia av sarmacoins:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -989,12 +989,12 @@ Adress: %4
         <translation>&amp;Huvud</translation>
     </message>
     <message>
-        <source>Automatically start SarmaCoins after logging in to the system.</source>
-        <translation>Starta SarmaCoins automatiskt efter systeminloggning.</translation>
+        <source>Automatically start sarmacoins after logging in to the system.</source>
+        <translation>Starta sarmacoins automatiskt efter systeminloggning.</translation>
     </message>
     <message>
-        <source>&amp;Start SarmaCoins on system login</source>
-        <translation>&amp;Starta SarmaCoins vid systeminloggning</translation>
+        <source>&amp;Start sarmacoins on system login</source>
+        <translation>&amp;Starta sarmacoins vid systeminloggning</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1021,8 +1021,8 @@ Adress: %4
         <translation>Denna mängd fungerar som en tröskel att stänga av Darksend då det har uppnåtts.</translation>
     </message>
     <message>
-        <source>Amount of SarmaCoins to keep anonymized</source>
-        <translation>Mängd SarmaCoins att bibehålla anonymiserade</translation>
+        <source>Amount of sarmacoins to keep anonymized</source>
+        <translation>Mängd sarmacoins att bibehålla anonymiserade</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1049,8 +1049,8 @@ Adress: %4
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>Automatically open the SarmaCoins client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna SarmaCoins:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
+        <source>Automatically open the sarmacoins client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna sarmacoins:s klientport automatiskt på routern. Detta fungerar bara om din router stöder UPnP och är aktiverad.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1101,14 +1101,14 @@ Adress: %4
         <translation>Användargränssnitt&amp;språk: </translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SarmaCoins.</source>
-        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att SarmaCoins startats om.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting sarmacoins.</source>
+        <translation>Användargränssnittspråket kan ställas in här. Denna inställning träder i kraft efter att sarmacoins startats om.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/SarmaCoins/</source>
+https://www.transifex.com/projects/p/sarmacoins/</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/projects/p/SarmaCoins/</translation>
+https://www.transifex.com/projects/p/sarmacoins/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1182,8 +1182,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SarmaCoins network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med SarmaCoins-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the sarmacoins network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara utdaterad. Din plånbok synkroniseras automatiskt med sarmacoins-nätverket efter att en anslutning har etablerats men denna process har ännu inte slutförts.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start SarmaCoins: click-to-pay handler</source>
-        <translation>Kan inte starta SarmaCoins: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start sarmacoins: click-to-pay handler</source>
+        <translation>Kan inte starta sarmacoins: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1435,8 +1435,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Antal anslutningar</translation>
     </message>
     <message>
-        <source>Open the SarmaCoins debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna SarmaCoinss avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
+        <source>Open the sarmacoins debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna sarmacoinss avsökningsloggfil från den nuvarande datakatalogen. Detta kan ta ett par sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1507,8 +1507,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Ut:</translation>
     </message>
     <message>
-        <source>Welcome to the SarmaCoins RPC console.</source>
-        <translation>Välkommen till SarmaCoinss RPC-konsol.</translation>
+        <source>Welcome to the sarmacoins RPC console.</source>
+        <translation>Välkommen till sarmacoinss RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1542,8 +1542,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Åt&amp;eranvänd en befintlig mottagaradress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SarmaCoins network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över SarmaCoins-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the sarmacoins network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegärandet vilket kommer att visas när begärandet öppnas. Observera: Meddelandet kommer inte att skickas med betalningen över sarmacoins-nätverket.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -1899,8 +1899,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Fel: Plånboken låstes upp enbart för att anonymisera mynt.</translation>
     </message>
     <message>
-        <source>Warning: Invalid SarmaCoins address</source>
-        <translation>Varning: Ogiltig SarmaCoins-adress</translation>
+        <source>Warning: Invalid sarmacoins address</source>
+        <translation>Varning: Ogiltig sarmacoins-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1958,8 +1958,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the SarmaCoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SarmaCoins network.</source>
-        <translation>Ett meddelande som bifogades till SarmaCoins: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över SarmaCoins-nätverket.</translation>
+        <source>A message that was attached to the sarmacoins: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the sarmacoins network.</source>
+        <translation>Ett meddelande som bifogades till sarmacoins: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över sarmacoins-nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>SarmaCoins Core is shutting down...</source>
-        <translation>SarmaCoins Core stängs ned...</translation>
+        <source>sarmacoins Core is shutting down...</source>
+        <translation>sarmacoins Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2036,8 +2036,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Kopiera den nuvarande valda signaturen till systemurklippet</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this SarmaCoins address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna SarmaCoins-adress</translation>
+        <source>Sign the message to prove you own this sarmacoins address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna sarmacoins-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2060,8 +2060,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Skriv in signeringsadressen, meddelandet, (försäkra dig om att du kopierar linjeavbrott, mellanslag, flikar med mera) och signera nedtill för att verifiera meddelandet. Var försiktig med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet för att undvika att bli lurad av en mellanhandattack.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified SarmaCoins address</source>
-        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna SarmaCoins-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified sarmacoins address</source>
+        <translation>Bekräfta meddelandet för att försäkra dig om att den signerades med den angivna sarmacoins-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>SarmaCoins Core</source>
-        <translation>SarmaCoins Core
+        <source>sarmacoins Core</source>
+        <translation>sarmacoins Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The SarmaCoins Core developers</source>
-        <translation>SarmaCoins Core-utvecklarna</translation>
+        <source>The sarmacoins Core developers</source>
+        <translation>sarmacoins Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2656,14 +2656,14 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
     </message>
 </context>
 <context>
-    <name>SarmaCoins-core</name>
+    <name>sarmacoins-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. SarmaCoins Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. SarmaCoins Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. sarmacoins Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. sarmacoins Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. SarmaCoins Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. SarmaCoins Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. sarmacoins Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. sarmacoins Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/projects/p/SarmaCoins/</translation>
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. SarmaCoins Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. SarmaCoins Core stängs ned.</translation>
+        <source>Initialization sanity check failed. sarmacoins Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. sarmacoins Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

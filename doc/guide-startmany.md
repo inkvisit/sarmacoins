@@ -95,7 +95,7 @@ Issue the following:
 Make note of the hash (which is your collaterla_output) and index.
 
 ### Enter your MasterNode details into your masternode.conf file
-[From the SarmaCoins github repo](https://github.com/darkcoin/darkcoin/blob/master/doc/masternode_conf.md)
+[From the sarmacoins github repo](https://github.com/darkcoin/darkcoin/blob/master/doc/masternode_conf.md)
 
 The new masternode.conf format consists of a space seperated text file. Each line consisting of an alias, IP address followed by port, masternode private key, collateral output transaction id and collateral output index, donation address and donation percentage (the latter two are optional and should be in format "address:percentage").
 
@@ -112,20 +112,20 @@ mn01 127.0.0.1:9999 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84
 mn02 127.0.0.2:9999 93WaAb3htPJEV8E9aQcN23Jt97bPex7YvWfgMDTUdWJvzmrMqey aa9f1034d973377a5e733272c3d0eced1de22555ad45d6b24abadff8087948d4 0 7gnwGHt17heGpG9Crfeh4KGpYNFugPhJdh:25
 ```
 
-## What about the SarmaCoins.conf file?
+## What about the sarmacoins.conf file?
 
-If you are using a masternode.conf file you no longer need the SarmaCoins.conf file. The exception is if you need custom settings (thanks oblox). 
+If you are using a masternode.conf file you no longer need the sarmacoins.conf file. The exception is if you need custom settings (thanks oblox). 
 
-## Update SarmaCoins.conf on server
+## Update sarmacoins.conf on server
 
-If you generated a new masternode private key, you will need to update the remote SarmaCoins.conf files.
+If you generated a new masternode private key, you will need to update the remote sarmacoins.conf files.
 
 Shut down the daemon and then edit the file.
 
-```sudo nano .SarmaCoins/SarmaCoins.conf```
+```sudo nano .sarmacoins/sarmacoins.conf```
 
 ### Edit the masternodeprivkey
-If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote SarmaCoins.conf file.
+If you generated a new masternode private key, you will need to update the masternodeprivkey value in your remote sarmacoins.conf file.
 
 ## Start your MasterNodes
 
@@ -135,9 +135,9 @@ If your remote server is not running, start your remote daemon as you normally w
 
 I usually confirm that remote is on the correct block by issuing:
 
-```SarmaCoinsd getinfo```
+```sarmacoinsd getinfo```
 
-And compare with the official explorer at http://explorer.SarmaCoins.io/chain/SarmaCoins
+And compare with the official explorer at http://explorer.sarmacoins.io/chain/sarmacoins
 
 ### Local
 

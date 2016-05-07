@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/darksend-relay.h \
            src/darksend.h \
-           src/SarmaCoins-config.h \
+           src/sarmacoins-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/SarmaCoins-config.h \
+           src/config/sarmacoins-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/SarmaCoins.moc \
+           src/qt/sarmacoins.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/darksend-relay.cpp \
            src/darksend.cpp \
-           src/SarmaCoins-cli.cpp \
-           src/SarmaCoins-tx.cpp \
-           src/SarmaCoinsd.cpp \
+           src/sarmacoins-cli.cpp \
+           src/sarmacoins-tx.cpp \
+           src/sarmacoinsd.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/darksendconfig.cpp \
-           src/qt/SarmaCoins.cpp \
-           src/qt/SarmaCoinsstrings.cpp \
+           src/qt/sarmacoins.cpp \
+           src/qt/sarmacoinsstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_SarmaCoins.cpp \
+           src/test/test_sarmacoins.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,20 +641,20 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/SarmaCoins.qrc src/qt/SarmaCoins_locale.qrc
-TRANSLATIONS += src/qt/locale/SarmaCoins_bg.ts \
-                src/qt/locale/SarmaCoins_de.ts \
-                src/qt/locale/SarmaCoins_en.ts \
-                src/qt/locale/SarmaCoins_es.ts \
-                src/qt/locale/SarmaCoins_fi.ts \
-                src/qt/locale/SarmaCoins_fr.ts \
-                src/qt/locale/SarmaCoins_it.ts \
-                src/qt/locale/SarmaCoins_ja.ts \
-                src/qt/locale/SarmaCoins_pl.ts \
-                src/qt/locale/SarmaCoins_pt.ts \
-                src/qt/locale/SarmaCoins_ru.ts \
-                src/qt/locale/SarmaCoins_sk.ts \
-                src/qt/locale/SarmaCoins_sv.ts \
-                src/qt/locale/SarmaCoins_vi.ts \
-                src/qt/locale/SarmaCoins_zh_CN.ts \
-                src/qt/locale/SarmaCoins_zh_TW.ts
+RESOURCES += src/qt/sarmacoins.qrc src/qt/sarmacoins_locale.qrc
+TRANSLATIONS += src/qt/locale/sarmacoins_bg.ts \
+                src/qt/locale/sarmacoins_de.ts \
+                src/qt/locale/sarmacoins_en.ts \
+                src/qt/locale/sarmacoins_es.ts \
+                src/qt/locale/sarmacoins_fi.ts \
+                src/qt/locale/sarmacoins_fr.ts \
+                src/qt/locale/sarmacoins_it.ts \
+                src/qt/locale/sarmacoins_ja.ts \
+                src/qt/locale/sarmacoins_pl.ts \
+                src/qt/locale/sarmacoins_pt.ts \
+                src/qt/locale/sarmacoins_ru.ts \
+                src/qt/locale/sarmacoins_sk.ts \
+                src/qt/locale/sarmacoins_sv.ts \
+                src/qt/locale/sarmacoins_vi.ts \
+                src/qt/locale/sarmacoins_zh_CN.ts \
+                src/qt/locale/sarmacoins_zh_TW.ts
