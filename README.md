@@ -1,5 +1,5 @@
-sarmacoins Core staging tree 0.12
-===============================
+﻿sarmacoins Core staging tree 0.12
+===============================   
 
 https://www.sarmacoins.io
 
@@ -15,7 +15,7 @@ sarmacoins is an experimental new digital currency that enables anonymous, insta
 payments to anyone, anywhere in the world. sarmacoins uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
 are carried out collectively by the network. sarmacoins Core is the name of open
-source software which enables the use of this currency.
+source software which enables the use of this currency. sdfsdff
 
 For more information, as well as an immediately useable, binary version of
 the sarmacoins Core software, see https://www.sarmacoins.io/downloads.
