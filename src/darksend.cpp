@@ -35,7 +35,7 @@ map<uint256, CDarksendBroadcastTx> mapDarksendBroadcastTxes;
 // Keep track of the active Masternode
 CActiveMasternode activeMasternode;
 
-/* *** BEGIN DARKSEND MAGIC - DASH **********
+/* *** BEGIN DARKSEND MAGIC - SARMACOINS **********
     Copyright (c) 2014-2015, sarmacoins Developers
         eduffield - evan@sarmacoins.io
         udjinm6   - udjinm6@sarmacoins.io

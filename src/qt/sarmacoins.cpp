@@ -77,10 +77,10 @@ QT_TRANSLATE_NOOP("sarmacoins-core", ""
 "Execute command when the best block changes (%s in cmd is replaced by block "
 "hash)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", ""
-"Fees (in DASH/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in SARMACOINS/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", ""
-"Fees (in DASH/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in SARMACOINS/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -167,10 +167,10 @@ QT_TRANSLATE_NOOP("sarmacoins-core", ""
 "Unable to locate enough Darksend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("sarmacoins-core", ""
 "Unable to locate enough Darksend non-denominated funds for this transaction "
-"that are not equal 1000 DASH."),
+"that are not equal 1000 SARMACOINS."),
 QT_TRANSLATE_NOOP("sarmacoins-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"DASH."),
+"SARMACOINS."),
 QT_TRANSLATE_NOOP("sarmacoins-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -270,7 +270,7 @@ QT_TRANSLATE_NOOP("sarmacoins-core", "Error: Wallet locked, unable to create tra
 QT_TRANSLATE_NOOP("sarmacoins-core", "Error: You already have pending entries in the Darksend pool"),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Failed to listen on any port. Use -listen=0 if you want this."),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Failed to read block"),
-QT_TRANSLATE_NOOP("sarmacoins-core", "Fee (in DASH/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("sarmacoins-core", "Fee (in SARMACOINS/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Finalizing transaction."),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Found enough users, signing ( waiting %s )"),
@@ -303,7 +303,7 @@ QT_TRANSLATE_NOOP("sarmacoins-core", "Invalid private key."),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("sarmacoins-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("sarmacoins-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("sarmacoins-core", "Keep N DASH anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("sarmacoins-core", "Keep N SARMACOINS anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Last Darksend was too recent."),
 QT_TRANSLATE_NOOP("sarmacoins-core", "Last successful Darksend action was too recent."),

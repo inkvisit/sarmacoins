@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(DASH);
-    unitlist.append(mDASH);
-    unitlist.append(uDASH);
+    unitlist.append(SARMACOINS);
+    unitlist.append(mSARMACOINS);
+    unitlist.append(uSARMACOINS);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case DASH:
-    case mDASH:
-    case uDASH:
+    case SARMACOINS:
+    case mSARMACOINS:
+    case uSARMACOINS:
     case duffs:
         return true;
     default:
@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
 {
     switch(unit)
     {
-        case DASH: return QString("sarmacoins");
-        case mDASH: return QString("msarmacoins");
-        case uDASH: return QString::fromUtf8("usarmacoins");
+        case SARMACOINS: return QString("sarmacoins");
+        case mSARMACOINS: return QString("msarmacoins");
+        case uSARMACOINS: return QString::fromUtf8("usarmacoins");
         case duffs: return QString("duffs");
         default: return QString("???");
     }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("DASH");
-            case mDASH: return QString("mDASH");
-            case uDASH: return QString::fromUtf8("μDASH");
+            case SARMACOINS: return QString("SARMACOINS");
+            case mSARMACOINS: return QString("mSARMACOINS");
+            case uSARMACOINS: return QString::fromUtf8("μSARMACOINS");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -69,9 +69,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("tDASH");
-            case mDASH: return QString("mtDASH");
-            case uDASH: return QString::fromUtf8("μtDASH");
+            case SARMACOINS: return QString("tSARMACOINS");
+            case mSARMACOINS: return QString("mtSARMACOINS");
+            case uSARMACOINS: return QString::fromUtf8("μtSARMACOINS");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -84,9 +84,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("sarmacoins");
-            case mDASH: return QString("Milli-sarmacoins (1 / 1" THIN_SP_UTF8 "000)");
-            case uDASH: return QString("Micro-sarmacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SARMACOINS: return QString("sarmacoins");
+            case mSARMACOINS: return QString("Milli-sarmacoins (1 / 1" THIN_SP_UTF8 "000)");
+            case uSARMACOINS: return QString("Micro-sarmacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-sarmacoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -95,9 +95,9 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case DASH: return QString("Testsarmacoinss");
-            case mDASH: return QString("Milli-Testsarmacoins (1 / 1" THIN_SP_UTF8 "000)");
-            case uDASH: return QString("Micro-Testsarmacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case SARMACOINS: return QString("Testsarmacoinss");
+            case mSARMACOINS: return QString("Milli-Testsarmacoins (1 / 1" THIN_SP_UTF8 "000)");
+            case uSARMACOINS: return QString("Micro-Testsarmacoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Testsarmacoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -108,9 +108,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case DASH:  return 100000000;
-    case mDASH: return 100000;
-    case uDASH: return 100;
+    case SARMACOINS:  return 100000000;
+    case mSARMACOINS: return 100000;
+    case uSARMACOINS: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -120,9 +120,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case DASH: return 8;
-    case mDASH: return 5;
-    case uDASH: return 2;
+    case SARMACOINS: return 8;
+    case mSARMACOINS: return 5;
+    case uSARMACOINS: return 2;
     case duffs: return 0;
     default: return 0;
     }

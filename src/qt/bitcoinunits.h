@@ -57,9 +57,9 @@ public:
      */
     enum Unit
     {
-        DASH,
-        mDASH,
-        uDASH,
+        SARMACOINS,
+        mSARMACOINS,
+        uSARMACOINS,
         duffs
     };
 

@@ -1,4 +1,4 @@
-TOR SUPPORT IN DASH
+TOR SUPPORT IN SARMACOINS
 =======================
 
 It is possible to run sarmacoins as a Tor hidden service, and connect to such services.
